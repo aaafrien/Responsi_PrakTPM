@@ -38,12 +38,12 @@ class NewsDetail extends StatelessWidget {
                       fit: BoxFit.cover)),
             ),
             SizedBox(height: 20),
-            Flexible(
-              child: Text(posts.description!),
+            Text(
+              posts.description!,
+              textAlign: TextAlign.justify,
             ),
             Expanded(
               child: Container(
-                height: MediaQuery.of(context).size.height,
                 alignment: Alignment.bottomRight,
                 child: ElevatedButton(
                   onPressed: () async {
