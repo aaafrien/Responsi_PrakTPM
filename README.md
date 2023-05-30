@@ -1,8 +1,8 @@
 # responsi_praktpm
 
-Afrien Khoirunnisa Shobar
-123200093
-Praktikum Teknologi Pemrograman Mobile Plug B
+- Afrien Khoirunnisa Shobar
+- 123200093
+- Praktikum Teknologi Pemrograman Mobile Plug B
 
 ## API
 - https://api-berita-indonesia.vercel.app/republika
