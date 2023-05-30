@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:responsi_praktpm/components/palettes.dart';
 import 'package:responsi_praktpm/pages/homepage.dart';
 
 void main() {
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: '123200093 - Responsi Praktikum TPM',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Palette.mainColor,
+        primarySwatch: Colors.teal,
       ),
       home: Homepage(),
     );
